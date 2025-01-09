@@ -44,3 +44,59 @@
   padding-bottom: var(--mantine-spacing-xl);
   border-top: 1px solid light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-5));
 }
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: var(--mantine-spacing-xs);
+  /* Replace with your spacing value */
+  font-family: "Greycliff CF", var(--mantine-font-family);
+  /* Replace with your font-family variable */
+  color: var(--mantine-color-text);
+  /* Replace with your theme-specific color variable */
+}
+
+.highlight {
+  color: var(--highlight-color);
+  /* Dynamic color to be set inline */
+}
+
+.description {
+  text-align: center;
+
+  @media (max-width: 520px) {
+    text-align: left;
+    font-size: var(--mantine-font-size-md);
+    /* Replace with the actual font size value */
+  }
+}
+
+.HeroButtons {
+  margin-top: 1vh;
+  margin-left: 1vw;
+
+  @media (max-width: 520px) {
+    margin-top: 1vh;
+  }
+}
+
+.HeroButtonDiv {
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: 520px) {
+    flex-direction: column;
+  }
+}
+
+.CardDivider {
+
+  width: 65px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  @media (max-width: 520px) {
+    width: 30px;
+  }
+}
