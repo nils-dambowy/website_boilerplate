@@ -6,6 +6,7 @@ export default function AllRoutes() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Website />} />
+        <Route path="/information" element={<Website />} />
       </Routes>
     </BrowserRouter>
   );

@@ -64,8 +64,9 @@ export function Features() {
       </Center>
 
       <SimpleGrid
-        cols={3}
+        cols={{ base: 1, sm: 3 }}
         mt={50}
+
       >
         {features}
       </SimpleGrid>
